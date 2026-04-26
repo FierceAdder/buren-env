@@ -35,7 +35,7 @@ Four **independent** signals are combined: **r1** survival (catastrophic penalti
 
 ## Training
 
-[Open `training/colab_train.ipynb` in Google Colab](https://github.com/FierceAdder/buren-env/blob/d1856c09af753b3b05282e6bf7a04fb33a0ddb5c/training/colab_train.ipynb) 
+[Open `training/colab_train.ipynb` in Google Colab](https://colab.research.google.com/github/FierceAdder/buren-env/blob/main/training/colab_train.ipynb) 
 ### Google Colab checklist
 
 1. **GPU runtime** (T4 or better): Runtime → Change runtime type → Hardware accelerator → GPU.
