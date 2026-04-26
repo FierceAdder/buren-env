@@ -6,11 +6,11 @@ colorTo: green
 sdk: docker
 app_port: 7860
 ---
+
+# Project Buren — Life-Stage RL Environment
 ## Blog / Video
 
 [Blog.md](https://github.com/FierceAdder/buren-env/blob/b017435f5613b045b924b5cf8c807c29416402f6/Blog.md)
-
-# Project Buren — Life-Stage RL Environment
 
 ## Problem
 
