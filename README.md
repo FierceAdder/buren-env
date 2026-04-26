@@ -48,7 +48,7 @@ Four **independent** signals are combined: **r1** survival (catastrophic penalti
 
 ## Blog / Video
 
-[HF blog post or YouTube video](https://huggingface.co/blog)
+[Blog.md](https://github.com/FierceAdder/buren-env/blob/b017435f5613b045b924b5cf8c807c29416402f6/Blog.md)
 
 ## How to Run Locally
 
