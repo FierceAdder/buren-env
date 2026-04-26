@@ -6,6 +6,9 @@ colorTo: green
 sdk: docker
 app_port: 7860
 ---
+## Blog / Video
+
+[Blog.md](https://github.com/FierceAdder/buren-env/blob/b017435f5613b045b924b5cf8c807c29416402f6/Blog.md)
 
 # Project Buren — Life-Stage RL Environment
 
@@ -48,9 +51,6 @@ Four **independent** signals are combined: **r1** survival (catastrophic penalti
 6. **Unsloth:** If `import unsloth` fails, `train.py` still runs with **Transformers + PEFT** and `--hf-fallback-model` (default 0.5B). Demo cell 8 skips 7B inference if Unsloth is missing.
 7. **Protobuf:** Cell 1 pins `protobuf>=5.29.1,<6` to avoid Colab’s old `protobuf` conflicting with `wandb` / `grpc` / Google client libraries.
 
-## Blog / Video
-
-[Blog.md](https://github.com/FierceAdder/buren-env/blob/b017435f5613b045b924b5cf8c807c29416402f6/Blog.md)
 
 ## How to Run Locally
 
