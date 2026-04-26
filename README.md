@@ -29,6 +29,8 @@ Four **independent** signals are combined: **r1** survival (catastrophic penalti
 ![Before vs after baseline](assets/before_after.png)  
 *Caption: Mean return over 20 evaluation episodes before and after training (placeholder until you train).*
 
+[Training Logs](https://github.com/FierceAdder/buren-env/blob/fccfdb7f02861c9cdc05d66cea65af65e421845c/assets/training_log.csv)
+
 ## Try It
 
 [Project Buren on Hugging Face Spaces](https://huggingface.co/spaces/Ashmit0110/project-buren/)
