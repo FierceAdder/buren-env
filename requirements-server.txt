@@ -1,0 +1,8 @@
+# Server-only dependencies — used by Dockerfile / HuggingFace Spaces.
+# No ML libs (torch, unsloth, trl, etc.) — those are training-only.
+openenv-core==0.2.3
+fastapi==0.136.1
+uvicorn[standard]==0.46.0
+pydantic==2.13.3
+requests==2.33.1
+numpy>=1.26.0

@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buren-life-simulator"
+version = "0.1.0"
+description = "Life-stage RL environment (Project Buren) for OpenEnv / GRPO"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "<your-hf-username>" }]
+dependencies = [
+    "protobuf>=5.29.1,<6",
+    "openenv-core>=0.2.3",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.7.0",
+    "trl>=0.25.0",
+    "unsloth",
+    "transformers>=4.49.0",
+    "torch>=2.4.0",
+    "huggingface_hub>=0.27.0",
+    "matplotlib>=3.9.0",
+    "numpy>=2.0.0",
+    "requests>=2.32.0",
+    "datasets>=3.0.0",
+    "sentencepiece>=0.2.0",
+    "accelerate>=1.0.0",
+    "peft>=0.11.0",
+]
+
+[project.optional-dependencies]
+train = ["bitsandbytes>=0.45.0"]
+
+[project.scripts]
+server = "server.app:main"
+buren-server = "server.app:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["environment*", "server*", "client*", "training*"]

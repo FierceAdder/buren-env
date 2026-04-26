@@ -1,0 +1,15 @@
+name: buren-life-simulator
+version: 0.1.0
+description: >
+  A life-stage RL environment where an LLM agent navigates health, wealth,
+  and happiness tradeoffs across a simulated human lifespan (age 20-70).
+  Uses RLVR with GRPO. Agent makes free-text decisions; consequences are
+  derived from reasoning quality via a rule-based verifier.
+theme: world_modeling_personalized
+author: <your-hf-username>
+action_space: free_text
+observation_space: structured
+episode_length: 10-15
+reward_type: verifiable_rubric
+base_class: Environment
+entry_point: server.app:app
