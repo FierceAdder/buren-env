@@ -31,12 +31,11 @@ Four **independent** signals are combined: **r1** survival (catastrophic penalti
 
 ## Try It
 
-[Project Buren on Hugging Face Spaces](https://huggingface.co/spaces/<your-hf-username>/buren-env)
+[Project Buren on Hugging Face Spaces](https://huggingface.co/spaces/Ashmit0110/project-buren/)
 
 ## Training
 
-[Open `training/colab_train.ipynb` in Google Colab](https://colab.research.google.com/github/<your-github-username>/<your-repo>/blob/main/training/colab_train.ipynb) (update the URL after you publish the notebook / repo).
-
+[Open `training/colab_train.ipynb` in Google Colab](https://github.com/FierceAdder/buren-env/blob/d1856c09af753b3b05282e6bf7a04fb33a0ddb5c/training/colab_train.ipynb) 
 ### Google Colab checklist
 
 1. **GPU runtime** (T4 or better): Runtime → Change runtime type → Hardware accelerator → GPU.
@@ -49,12 +48,12 @@ Four **independent** signals are combined: **r1** survival (catastrophic penalti
 
 ## Blog / Video
 
-[HF blog post or YouTube video](https://huggingface.co/blog) — replace with your submission links.
+[HF blog post or YouTube video](https://huggingface.co/blog)
 
 ## How to Run Locally
 
 ```bash
-git clone https://huggingface.co/spaces/<your-hf-username>/buren-env
+git clone https://huggingface.co/spaces/Ashmit0110/project-buren/
 cd buren-env && pip install -r requirements.txt   # or: pip install -r requirements-frozen.txt
 PYTHONPATH=. python -m uvicorn server.app:app --host 0.0.0.0 --port 7860
 # equivalent: uv run server
@@ -73,8 +72,7 @@ PYTHONPATH=. python -m uvicorn server.app:app --host 0.0.0.0 --port 7860
 ```bash
 huggingface-cli login
 openenv validate --verbose
-openenv push --repo-id <your-hf-username>/buren-env
-curl -f https://<your-hf-username>-buren-env.hf.space/health
+openenv push --repo-id ashmit0110/project-buren/
+curl -f https://ashmit0110-project-buren.hf.space/health
 ```
 
-Replace `<your-hf-username>` everywhere before submitting.
